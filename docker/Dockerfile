@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-alpine
+FROM eclipse-temurin:8-jdk-alpine
 RUN mkdir /config
 RUN mkdir /routes
 RUN mkdir /eip-home
